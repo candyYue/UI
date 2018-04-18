@@ -1,0 +1,56 @@
+$prefixCls: emic;
+
+/* Colors */
+$color-theme:#4cabe9;
+$color-white:#fff !default;
+$color-black: #000 !default;
+$color-primary:$color-theme!default;
+
+$color-primary: $color-theme !default;
+$color-success: #67c23a !default;
+$color-warning: #e6a23c !default;
+$color-danger: #f56c6c !default;
+$color-info: #909399 !default;
+
+$color-bg: #f8f9fd;
+$color-text:#595d65;
+$color-text-placeholder: #c0c4cc !default;
+
+/* Border */
+$border-width-base: 1px !default;
+$border-style-base: solid !default;
+$border-color-base: #dcdfe6 !default;
+$border-color-light: #e4e7ed !default;
+$border-base: $border-width-base $border-style-base $border-color-base !default;
+$border-radius-base: 4px !default;
+$border-radius-small: 2px !default;
+$border-color-hover: $color-text-placeholder !default;
+
+/* Font */
+$font-size:14px !default;
+$font-family: "Helvetica Neue","Helvetica","PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+$font-lineheight:1.5;
+$font-color-disabled-base: #bbb !default;
+
+/* button */
+$btn-small-padding:5px 8px;
+$btn-default-padding: 7px 16px;
+$btn-small-padding: 3px 8px;
+$btn-large-padding: 10px 21px;
+$btn-small-radius: 3px;
+$btn-default-radius: 4px;
+$btn-large-radius: 6px;
+$btn-active-shade-percent: 40%;
+$btn-hover-shade-percent: 40%;
+
+/* input */
+$input-base-bg: #fff;
+$input-font-size: $font-size !default;
+$input-width: 140px !default;
+$input-height: 40px !default;
+$input-border: $border-base !default;
+$input-border-color-hover: $color-text-placeholder !default;
+
+/* Icon */
+$icon-color: #666 !default;
+$icon-color-base: $color-info !default;
