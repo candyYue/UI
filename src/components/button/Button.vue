@@ -14,22 +14,24 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'primary'
+      default: ''
     },
     size: {
-        type: String,
-        default: 'medium'
+      type: String,
+      default: 'medium'
     },
     icon: {
-        type: String,
-        default: ''
+      type: String,
+      default: ''
     },
     loading: Boolean,
-    buttonDisabled:Boolean
+    buttonDisabled: Boolean
   },
   computed: {
     buttonClasses () {
-      return [[`${prefixCls}-button`, `button-${this.type}`,`button-${this.size}` ]]
+      return [
+        [`${prefixCls}-button`, `button-${this.type}`, `button-${this.size}`]
+      ]
     }
   },
   methods: {

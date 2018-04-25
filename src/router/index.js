@@ -16,6 +16,24 @@ export default new Router({
       component: (resolve) => {
         require(['@/pages/PageButton'], resolve)
       }
+    },
+    {
+      path: '/messgea',
+      component: (resolve) => {
+        require(['@/pages/PageMessgea'], resolve)
+      }
+    },
+    {
+      path: '/modal',
+      component: (resolve) => {
+        require(['@/pages/PageModal'], resolve)
+      }
+    },
+    {
+      path: '/tabs',
+      component: (resolve) => {
+        require(['@/pages/PageTabs'], resolve)
+      }
     }
   ]
 })

@@ -1,0 +1,25 @@
+.#{$prefixCls}{
+    &-tab{
+        background: #fff;
+        padding: 10px
+    }
+    &tab-bar{
+        overflow: hidden;
+        >div{
+            float: left;
+            width: 80px;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+            border-bottom: $border-base;
+            cursor: pointer;
+            transition: all .35s
+        }
+        .activebar{
+            border-bottom: 2px solid #4cabe9;
+        }
+    }
+    &tab-container{
+        padding: 20px
+    }
+}

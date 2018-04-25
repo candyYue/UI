@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { Button ,Icon} from '@/components'
+import { Button, Icon } from '@/components'
 export default {
   name: 'page-button',
   components: {
