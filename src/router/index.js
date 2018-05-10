@@ -18,9 +18,9 @@ export default new Router({
       }
     },
     {
-      path: '/messgea',
+      path: '/message',
       component: (resolve) => {
-        require(['@/pages/PageMessgea'], resolve)
+        require(['@/pages/PageMessage'], resolve)
       }
     },
     {
@@ -33,6 +33,12 @@ export default new Router({
       path: '/tabs',
       component: (resolve) => {
         require(['@/pages/PageTabs'], resolve)
+      }
+    },
+    {
+      path: '/checkbox',
+      component: (resolve) => {
+        require(['@/pages/PageCheckbox'], resolve)
       }
     }
   ]

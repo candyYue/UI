@@ -1,0 +1,44 @@
+.#{$prefixCls}{
+    &-messageLayout{
+        position: relative;
+        height: 30px;
+        transition: $transition;
+    }
+    &-message{
+        min-width: 180px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: $border-base;
+        border-radius: 8px;
+        box-shadow: $shadow-base;
+        padding: 0 20px;  
+    }
+}
+// message淡入
+@keyframes message {
+    0% { 
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@each $type, $color in (primary: $color-theme, info: $color-info, success: $color-success, warning: $color-warning, error: $color-error) {
+    .message-#{$type} {
+        background: $color;
+        &:hover,
+        &:focus{
+            opacity:.87 ;
+            outline: none;
+        }
+        i{
+            color: #fff;
+            float: left;
+        }
+    }
+}

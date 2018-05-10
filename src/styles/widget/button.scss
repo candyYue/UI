@@ -22,7 +22,7 @@
 }
 
 
-@each $type, $color in (primary: $color-theme, info: $color-info, success: $color-success, warning: $color-warning, danger: $color-danger) {
+@each $type, $color in (primary: $color-theme, info: $color-info, success: $color-success, warning: $color-warning, error: $color-error) {
     .button-#{$type} {
         background: $color;
         &:hover,

@@ -26,6 +26,7 @@ export default {
   methods: {
     cancel () {
       console.log('cancel')
+      this.tempmodal = false
     },
     open () {
       this.tempmodal = true

@@ -9,7 +9,7 @@ $color-primary:$color-theme!default;
 $color-primary: $color-theme !default;
 $color-success: #67c23a !default;
 $color-warning: #e6a23c !default;
-$color-danger: #f56c6c !default;
+$color-error: #f56c6c !default;
 $color-info: #909399 !default;
 
 $color-bg: #f8f9fd;
@@ -54,3 +54,12 @@ $input-border-color-hover: $color-text-placeholder !default;
 /* Icon */
 $icon-color: #666 !default;
 $icon-color-base: $color-info !default;
+
+// Shadow
+$shadow-color : rgba(0, 0, 0, .2);
+$shadow-down : 0 1px 6px $shadow-color;
+$shadow-base : $shadow-down;
+$shadow-card : 0 1px 1px 0 rgba(0,0,0,.1);
+$shadow-up : 0 -1px 6px $shadow-color;
+$shadow-left : -1px 0 6px $shadow-color;
+$shadow-right : 1px 0 6px $shadow-color;
